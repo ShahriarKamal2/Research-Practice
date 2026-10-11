@@ -1,0 +1,16 @@
+# Literature Review: Telecommunications Customer Churn Prediction
+
+### 1. A Churn Prediction Model Using Random Forest: Analysis of Machine Learning Techniques for Churn Prediction and Factor Identification in Telecom Sector
+The authors tested several machine learning models to predict which telecom customers are most likely to cancel their service. They found that cleaning the data and selecting the most important features allowed the Random Forest model to achieve the best accuracy, F-measure, and AUC scores. The authors also used decision rules to find the main reasons customers leave, helping companies target at-risk users with better retention offers.
+
+### 2. Integrated Churn Prediction and Customer Segmentation Framework for Telco Business
+The authors built a complete churn prediction system using three telecom datasets and six different machine learning models. Because far fewer customers leave than stay, they used a technique called SMOTE to balance the training data and relied on the F1-score and AUC rather than just simple accuracy. Their results showed that combining SMOTE with Random Forest and AdaBoost improved the model's ability to catch actual churners.
+
+### 3. Telecom Churn Prediction System Based on Ensemble Learning Using Feature Grouping
+The authors showed that creating new features before training a model can significantly improve telecom churn predictions. They grouped continuous numbers—like customer spending and usage—into equal-sized buckets so the model could spot shared behavior patterns more easily. Feeding these grouped features into an ensemble of models (including Logistic Regression, Decision Trees, and XGBoost) produced much better accuracy and F1-scores than using raw data alone.
+
+### 4. Customer Churn Prediction for Telecommunication Companies using Machine Learning and Ensemble Methods
+The authors compared individual machine learning models (like Logistic Regression and Decision Trees) against ensemble methods (like Random Forest and XGBoost) on telecom customer data. They emphasized that careful data cleaning—such as fixing missing values, encoding text categories, and scaling numbers—is necessary before training any model. Their experiments confirmed that tuned models and ensemble methods generalize better on unseen test data and help companies spot high-risk customers early.
+
+### 5. A Review on Machine Learning Methods for Customer Churn Prediction and Recommendations for Business Practitioners
+The authors reviewed recent studies on predicting customer churn with machine learning to identify best practices for business teams. Their review points out a common trade-off: simple models like Logistic Regression are easy for stakeholders to interpret, while tree-based ensemble models like Random Forest usually achieve higher predictive accuracy. Therefore, a practical churn project should compare a simple baseline model against an ensemble model and evaluate them using imbalance-aware metrics like F1-score and ROC-AUC.
